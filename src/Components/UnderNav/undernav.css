@@ -1,0 +1,36 @@
+.undernav{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #d3d2d2;
+}
+
+.leftHeader h3{
+    margin: 0;
+    font-size: 1rem;
+}
+
+.centerUl{
+   flex-grow: 0.7;
+}
+
+.centerUl ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 220px;
+  font-size: 14px;
+}
+
+.centerUl li{
+    padding: 0;
+}
+
+.centerUl li:hover {
+    color: rgb(7, 175, 175);
+}

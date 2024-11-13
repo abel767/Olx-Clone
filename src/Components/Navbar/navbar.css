@@ -1,0 +1,82 @@
+
+.navbar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eff1f3; 
+    padding: 10px 20px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left img {
+    height: 40px; 
+    margin-right: 10px; 
+}
+
+.navbar-left input[type="search"] {
+    padding: 18px;
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    width: 260px; 
+}
+
+.navbar-center {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-center input[type="search"] {
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 600px; 
+}
+
+
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right p {
+    margin-right: 20px; 
+    font-weight: bold; 
+}
+
+.navbar-right img {
+    height: 30px; 
+    margin-left: 15px; 
+    cursor: pointer; 
+}
+
+.navbar-right img:hover {
+    opacity: 0.7; 
+}
+
+
+.sell-button {
+    margin-left: 15px; 
+    padding: 10px 15px; 
+    background-color: #f76c6c; 
+    color: white; 
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+}
+
+.sell-button:hover {
+    background-color: #e65c5c; /* Darker shade on hover */
+}
