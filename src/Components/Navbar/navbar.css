@@ -67,19 +67,7 @@
 }
 
 
-.sell-button {
-    margin-left: 15px; 
-    padding: 10px 15px; 
-    background-color: #f76c6c; 
-    color: white; 
-    border: none; /* No border */
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor */
-}
 
-.sell-button:hover {
-    background-color: #e65c5c; /* Darker shade on hover */
-}
 
 .sellMenu {
     position: relative;
