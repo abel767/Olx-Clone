@@ -1,0 +1,51 @@
+
+.sellForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.sellForm h2{
+    font-weight: 500;
+}
+
+.formWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formWrapper form{ 
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    padding: 10px 150px;
+    border: 1px solid #333;
+}
+
+.formWrapper input , textarea, label{
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.formWrapper button{
+    position: relative;
+    border: 1px solid rgb(152, 205, 252);
+    left: 100px;
+    padding: 10px;
+    width: 90px;
+    margin-top: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    background: rgb(70, 167, 252);
+    color: #fff;
+}
+
+.formWrapper button:hover{
+    background: rgb(152, 205, 252) ;
+}

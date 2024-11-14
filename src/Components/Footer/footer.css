@@ -1,0 +1,80 @@
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .upperFooter {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    background-color: #f1f3f5;
+    padding: 30px;
+  }
+  
+  .upperFooter table {
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 10px;
+  }
+  
+  .upperFooter th {
+    color: #2a2a2a;
+    font-weight: bold;
+    padding-bottom: 2px;
+  
+  }
+  
+  .upperFooter td {
+    color: #606060;
+    padding: 2px 0;
+    line-height: 1.5;
+  }
+  
+  .upperFooter tr td a {
+    color: #606060;
+    text-decoration: none;
+  }
+  
+  .upperFooter tr td a:hover {
+    color: #000;
+  }
+  
+  .upperFooter td {
+    padding-bottom: 5px;
+  }
+  
+  .upperFooter th,
+  .upperFooter td {
+    padding-right: 15px;
+  }
+  
+  .upperFooter tr td:last-child {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .upperFooter tr td:last-child img {
+    width: 100px;
+    height: auto;
+  }
+  
+  .lowerFooter {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    justify-content: center;
+    background-color: #002f34;
+    padding: 30px;
+}
+
+.lowerFooter img {
+    padding-left: 50px;
+    display: flex;
+    width: 150px;
+}

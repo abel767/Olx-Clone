@@ -1,0 +1,12 @@
+.nav{
+    background: #eff1f3;
+    display: flex;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+    padding: 10px;
+}
+
+.nav img{
+    width: 30px;
+    margin-left: 20px ;
+    cursor: pointer;
+}
